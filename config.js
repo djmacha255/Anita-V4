@@ -18,7 +18,7 @@ global.autoTyping = toBool(process.env.AUTO_TYPING);
 global.autoRecord = toBool(process.env.AUTO_RECORD);
 global.autoViewStatus = toBool(process.env.AUTO_VIEW_STATUS);
 global.AUTO_STATUS_REACT = toBool(process.env.AUTO_STATUS_REACT);
-global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
+global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💖";
 global.LEVELUP = toBool(process.env.LEVELUP);
 global.ANTIVIEWONCE = toBool(process.env.ANTIVIEWONCE);
 
@@ -34,7 +34,7 @@ global.autoreact = toBool(process.env.AUTO_REACT);
 global.WELCOME = toBool(process.env.WELCOME);
 
 // Prefix & Other Settings
-global.prefix = process.env.PREFIX || '.';
+global.prefix = process.env.PREFIX || ',';
 global.autobio = toBool(process.env.AUTO_BIO);
 global.ANTI_TEMU = toBool(process.env.ANTI_TEMU);
 global.ANTI_TAG = toBool(process.env.ANTI_TAG);
